@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+	<style type="text/css">
+	h1{
+		font-family:Arial;
+		text-align:center;
+		color:red;
+	}
+	table {
+		  border-collapse: collapse;
+		}
+	table.table2 td {
+		  border-bottom: 1px dashed black; 
+		}
+	table th{
+		font-weight:bold;
+		color:blue;
+		font-family:Arial;
+	}
+	</style>
+	<script type="text/javascript">
+		function display_alert()
+		  {
+		  	alert("Your response has been recorded!!")
+		  }
+	</script>
+</head>
+<body>
+	<header>
+		<h1>STUDENT FEEDBACK FORM</h1>
+	</header>
+<form>
+			<section>
+				<table class="table1" align="center" bgcolor="merganta" width="550px">
+					<tr>
+						<td>
+								<label for ="name"><strong> Enter Student's Name: </strong></label>
+								<input type="text" id="name" placeholder="Name"><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+								<label for ="email"><strong>Enter Email:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></label>
+								<input type="email" id="email" placeholder="abc012@gmail.com"><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+								<label for="prn"><strong>Enter PRN:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></label>
+								<input type ="text" id="prn" placeholder="PRN"><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							
+								<label for="question"><strong>Year Of Studying:&nbsp &nbsp &nbsp &nbsp &nbsp</strong></label>
+								<select name="question" id="question">
+									<option value="1">First Year</option>
+									<option value="2">Second Year</option>
+									<option value="3">Third Year</option>
+									<option value="4">Fourth Year</option>
+								</select><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+								<label for="Dept"><strong>Choose Department:&nbsp &nbsp &nbsp</strong></label>
+								<select name="Dept" id="Dept">
+									<option value="CS">Computer Science And Engineering</option>
+									<option value="IT">Information Technology</option>
+									<option value="Civ">Civil Engineering</option>
+									<option value="Mech">Mechanical Engineering</option>
+								</select><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+								<label for ="myfile"><strong>Upload Image:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></label>
+								<input type="file" id="myfile" name="Files" accept="*/*"><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+								<label for="ID"><strong>Upload ID Card:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<strong></label>
+								<input type="file" id="ID" accept="application/pdf"><br><br>
+						</td>
+					</tr>
+			</table>
+		</section>
+</center>
+<br><br>
+	<div align="center">
+			<input type="image" src="https://tse4.mm.bing.net/th?id=OIP.t3PSh95zSrOO0lrAO8y3SgAAAA&pid=Api&P=0&w=300&h=300" alt="Next" width="110" height="55">
+	</div>
+<center>
+	<section>
+		<table class="table2" bgcolor="merganta" width="550px">
+			<th>
+				<h3>About Facilities provided By Department</h3>
+			</th>
+			<tr>
+				<td>
+						<label for="syllabus">1-Satisfying Course Syllabus</label>
+				</td>
+				<td>
+						<input type="radio" name="syllabus">Agree<br>
+						<input type="radio" name="syllabus"> Strongly Agree<br>
+						<input type="radio" name="syllabus">Disgree<br>
+						<input type="radio" name="syllabus">Strongly disgree<br>
+						<input type="radio" name="syllabus">Neutral<br>
+				</td>
+			</tr>
+				<td>
+					<label for="Teach">2-Satisfying Teaching</label>
+				</td>
+				<td>
+					<input type="radio" name="Teach">Agree<br>
+					<input type="radio" name="Teach"> Strongly Agree<br>
+					<input type="radio" name="Teach">Disgree<br>
+					<input type="radio" name="Teach">Strongly disgree<br>
+					<input type="radio" name="Teach">Neutral<br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="lab">3-Labs with All Requirements</label>
+				</td>
+				<td>
+					<input type="radio" name="lab">Agree<br>
+					<input type="radio" name="lab"> Strongly Agree<br>
+					<input type="radio" name="lab">Disgree<br>
+					<input type="radio" name="lab">Strongly disgree<br>
+					<input type="radio" name="lab">Neutral<br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="Academics">4-Overall Department Rating</label>
+				</td>
+				<td>
+					<input type="radio" name="Academic">Agree<br>
+					<input type="radio" name="Academic"> Strongly Agree<br>
+					<input type="radio" name="Academic">Disgree<br>
+					<input type="radio" name="Academic">Strongly disgree<br>
+					<input type="radio" name="Academic">Neutral<br>
+				</td>
+			</tr>
+			<th>
+				<h3>Other than Academics</h3>
+			</th>
+			<tr>
+				<td>
+					<label>1-Workshops/Seminars</label>
+				</td>
+				<td>
+					<input type="radio" name="General">Agree<br>
+					<input type="radio" name="General"> Strongly Agree<br>
+					<input type="radio" name="General">Disgree<br>
+					<input type="radio" name="General">Strongly disgree<br>
+					<input type="radio" name="General">Neutral<br>
+				</td>
+			<tr>
+			<tr>
+				<td>
+					<label>2-Guset Lectures</label>
+				</td>
+				<td>
+					<input type="radio" name="General">Agree<br>
+					<input type="radio" name="General"> Strongly Agree<br>
+					<input type="radio" name="General">Disgree<br>
+					<input type="radio" name="General">Strongly disgree<br>
+					<input type="radio" name="General">Neutral<br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>3-Events Conducted By Clubs</label>
+				</td>
+				<td>
+					<input type="radio" name="General">Agree<br>
+					<input type="radio" name="General"> Strongly Agree<br>
+					<input type="radio" name="General">Disgree<br>
+					<input type="radio" name="General">Strongly disgree<br>
+					<input type="radio" name="General">Neutral<br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="suggestion">Write Your Suggestions</label>
+				</td>
+				<br>
+				<td>
+					<textarea name="bio" id="bio" cols="40" rows="10" placeholder="About Department!!"></textarea><br><br>
+				</td>
+			</tr>
+		</table>
+	</section>
+</center>
+	<div align="center">
+			<br><br>
+			<button name = "button" value = "Edit" type = "reset">Edit</button>
+			<button name = "button" value = "submit" onclick="display_alert()" type = "submit">Submit</button>
+	</div>
+</form>
+</body>
+</html>
